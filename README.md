@@ -1,6 +1,7 @@
 # Lenovo ThinkPad T480 - OpenCore Configuation
 
-<img align="right" src="https://dl.exploitox.de/t480-oc/Hackintosh-T480-Ventura.png" alt="macOS Ventura running on the T480" width="425">
+[macOS T480 repository-open-graph-template](https://user-images.githubusercontent.com/72415505/218522689-f6c7463f-499d-47ae-b4d6-3787e1d3aedc.png)
+
 
 [![macOS](https://img.shields.io/badge/macOS-Monterey-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
