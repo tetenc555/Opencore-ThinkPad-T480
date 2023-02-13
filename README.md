@@ -1,7 +1,6 @@
-# Lenovo ThinkPad T480 - OpenCore Configuation
+# Lenovo ThinkPad T480 OpenCore Configuation
 
-[macOS T480 repository-open-graph-template](https://user-images.githubusercontent.com/72415505/218522689-f6c7463f-499d-47ae-b4d6-3787e1d3aedc.png)
-
+![macOS T480 repository-open-graph-template](https://user-images.githubusercontent.com/72415505/218522992-9707ebe3-b8ff-4408-9139-a3c45b6fe54a.png)
 
 [![macOS](https://img.shields.io/badge/macOS-Monterey-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
@@ -16,7 +15,6 @@
    <a href="https://github.com/valnoxy/t480-oc/releases"><strong>Download now »</strong></a>
    <br />
    <a href="https://github.com/valnoxy/t480-oc/issues">Report Bug</a>
-   ·
    <a href="https://github.com/valnoxy/t480-oc/blob/main/CHANGELOG.md">View Changelog</a>
   </p>
 </p>
