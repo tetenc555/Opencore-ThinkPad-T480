@@ -55,7 +55,7 @@ These are the Hardware component I use. But this OpenCore configuation <strong>s
 | --------- | ------------------------------------ |
 | CPU       | Intel Core i5-8350U                  |
 | GPU       | Intel UHD Graphics 620               |
-| SSD       | Intel SSDPEKKF256G8L M.2 NVMe SSD    |
+| SSD       | Pioneer APS 1TB SATA SSD		   |
 | Memory    | 8GB DDR4 2400Mhz                     |
 | Camera    | 720p Camera                          |
 | WiFi & BT | Dell DW1830 (BCM43602)               |
