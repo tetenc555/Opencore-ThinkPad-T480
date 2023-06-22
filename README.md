@@ -2,7 +2,6 @@
 
 ![macOS T480 repository-open-graph-template](https://user-images.githubusercontent.com/72415505/218522992-9707ebe3-b8ff-4408-9139-a3c45b6fe54a.png)
 
-[![macOS](https://img.shields.io/badge/macOS-Monterey-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.9.3-blue)](https://github.com/acidanthera/OpenCorePkg)
 [![License](https://img.shields.io/badge/license-MIT-purple)](/LICENSE)
