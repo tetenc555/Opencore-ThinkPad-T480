@@ -96,14 +96,14 @@ With macrecovery, the process is the following:
 - Open ```cmd.exe``` with Administrator privileges and change the directory to OpenCorePkg-master\Utilities\macrecovery.
 - Enter the following command to download macOS:
 ```
-# Big Sur (11)
-python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download
-
 # Monterey (12)
 python macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
 
 # Ventura (13)
 python macrecovery.py -b Mac-7BA5B2D9E42DDD94 download
+
+# Sonoma (14) (Beta)
+-----------------------------Coming Soon----------------------------------
 ```
 - After the download succeeded, type ```diskpart``` and wait until you see ```DISKPART>```
 
