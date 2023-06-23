@@ -6,7 +6,6 @@
 	<dict>
 		<key>Add</key>
 		<array>
-			<!-- Optional -->
 			<dict>
 				<key>Comment</key>
 				<string>Disable Broadcom card during sleep</string>
@@ -31,7 +30,6 @@
 				<key>Enabled</key>
 				<false/>
 			</dict>
-			<!-- /Optional -->
 			<dict>
 				<key>Comment</key>
 				<string>SSDT-AC</string>
@@ -418,7 +416,6 @@
 				<key>TableSignature</key>
 				<data>RFNEVA==</data>
 			</dict>
-			<!-- ThinkPad Assistant -->
 			<dict>
 				<key>Comment</key>
 				<string>_Q6A to XQ6A (F4 - Microphone Mute)</string>
@@ -679,7 +676,6 @@
 				<key>TableSignature</key>
 				<data></data>
 			</dict>
-			<!-- /ThinkPad Assistant -->
 			<dict>
 				<key>Comment</key>
 				<string>Change _OSI to XOSI</string>
@@ -2455,7 +2451,7 @@
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
-				<string>de-DE:3</string>
+				<string>en-US:0</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
