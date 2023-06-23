@@ -10,7 +10,7 @@
 <p align="center">
    <strong>Status: Maintained</strong>
    <br />
-   <strong>Version: </strong>1.2.3
+   <strong>Version: </strong>1.3.1
    <br />
    <a href="https://github.com/valnoxy/t480-oc/releases"><strong>Download now »</strong></a>
    <br />
@@ -35,9 +35,10 @@ This repo includes multiple EFI configuations for different macOS Versions.
 
 | EFI               | Description                                                               | Type      |
 | ----------------- | ------------------------------------------------------------------------- | --------- |
-| `EFI`             | Supports macOS Monterey, Ventura, & Sonoma (using Airportitlwm)           | `Stable`  |
-| `EFI - HeliPort`  | Supports every macOS Version (except Ventura), Require HeliPort app       | `Stable`  |
+| `EFI - Intel`     | Supports macOS Ventura (using Airportitlwm)		                | `Stable`  |
+| `EFI - HeliPort`  | Supports every macOS Version (except Ventura), Requires HeliPort app      | `Stable`  |
 | `EFI - Broadcom`  | Supports every macOS Version (except Sonoma)		                | `Beta`    |
+| `EFI - Sonoma`    | Supports macOS Sonoma (using Airportitlwm)				| `Beta`    |
 
 > **Note** The Broadcom configuration is not stable. Use ```EFI``` instead for a better experience (you can also disable Airportitlwm).
 
