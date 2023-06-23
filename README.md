@@ -2,8 +2,8 @@
 
 ![macOS T480 repository-open-graph-template](https://user-images.githubusercontent.com/72415505/218522992-9707ebe3-b8ff-4408-9139-a3c45b6fe54a.png)
 
-[![macOS](https://img.shields.io/badge/macOS-Monterey-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
+[![macOS](https://img.shields.io/badge/macOS-Sonoma-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.9.3-blue)](https://github.com/acidanthera/OpenCorePkg)
 [![License](https://img.shields.io/badge/license-MIT-purple)](/LICENSE)
 
@@ -35,9 +35,9 @@ This repo includes multiple EFI configuations for different macOS Versions.
 
 | EFI               | Description                                                               | Type      |
 | ----------------- | ------------------------------------------------------------------------- | --------- |
-| `EFI`             | Supports macOS Big Sur, Monterey & Ventura (using Airportitlwm)           | `Stable`  |
+| `EFI`             | Supports macOS Monterey, Ventura, & Sonoma (using Airportitlwm)           | `Stable`  |
 | `EFI - HeliPort`  | Supports every macOS Version (except Ventura), Require HeliPort app       | `Stable`  |
-| `EFI - Broadcom`  | Supports every macOS Version, only for Broadcom Wifi cards                | `Beta`    |
+| `EFI - Broadcom`  | Supports every macOS Version (except Sonoma)		                | `Beta`    |
 
 > **Note** The Broadcom configuration is not stable. Use ```EFI``` instead for a better experience (you can also disable Airportitlwm).
 
@@ -55,10 +55,10 @@ These are the Hardware component I use. But this OpenCore configuation <strong>s
 | --------- | ------------------------------------ |
 | CPU       | Intel Core i5-8350U                  |
 | GPU       | Intel UHD Graphics 620               |
-| SSD       | Intel SSDPEKKF256G8L M.2 NVMe SSD    |
-| Memory    | 8GB DDR4 2400Mhz                     |
+| SSD       | Pioneer APS 1TB SATA SSD		   |
+| Memory    | 24GB DDR4 2400Mhz                    |
 | Camera    | 720p Camera                          |
-| WiFi & BT | Dell DW1830 (BCM43602)               |
+| WiFi & BT | Intel 18265 Wifi 	                   |
 
 </details>  
 
