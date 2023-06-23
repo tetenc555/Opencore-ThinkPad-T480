@@ -12,7 +12,7 @@
    <br />
    <strong>Version: </strong>1.3.1
    <br />
-   <a href="https://github.com/valnoxy/t480-oc/releases"><strong>Download now »</strong></a>
+   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/releases"><strong>Download now »</strong></a>
    <br />
    <a href="https://github.com/valnoxy/t480-oc/issues">Report Bug</a>
    <a href="https://github.com/valnoxy/t480-oc/blob/main/CHANGELOG.md">View Changelog</a>
