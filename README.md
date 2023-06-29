@@ -70,6 +70,18 @@ These are the Hardware component I use. But this OpenCore configuation <strong>s
 ## Installation
 
 <details>  
+<summary><strong> ⚠️ Anti-Piracy Warning / Disclaimer ⚠️ </strong></summary>
+</br>
+	
+### ⚠️ PIRACY IS NO PARTY! ⚠️
+
+I do not endorse or condone the use of pre-configured Hackintosh Distros because not only they cause unnecessary harm to your machine but it is considered to be a form of **Software Piracy**. Software Piracy is a serious crime according to copyright law and is punishable for up to 10 years in prison. 
+</details>
+
+
+</details>
+
+<details>  
 <summary><strong>📝 Requirements</strong></summary>
 </br>
 
