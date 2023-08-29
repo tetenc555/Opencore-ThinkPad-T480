@@ -2077,6 +2077,8 @@
         <integer>5</integer>
         <key>HibernateSkipsPicker</key>
         <false/>
+        <key>InstanceIdentifier</key>
+        <string></string>
       </dict>
       <key>Debug</key>
       <dict>
