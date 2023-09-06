@@ -36,7 +36,7 @@ This repo includes multiple EFI configuations for different macOS Versions.
 | EFI               | Description                                                               | Type      |
 | ----------------- | ------------------------------------------------------------------------- | --------- |
 | `EFI - Intel`     | Supports macOS Ventura (using Airportitlwm)		                | `Stable`  |
-| `EFI - HeliPort`  | Supports every macOS Version (except Ventura), Requires HeliPort app      | `Stable`  |
+| `EFI - HeliPort`  | Supports every macOS Version, Requires HeliPort app      			| `Stable`  |
 | `EFI - Broadcom`  | Supports every macOS Version (except Sonoma)		                | `Beta`    |
 | `EFI - Sonoma`    | Supports macOS Sonoma (using Airportitlwm)				| `Beta`    |
 
