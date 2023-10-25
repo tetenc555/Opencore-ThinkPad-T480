@@ -2331,6 +2331,8 @@
         <false/>
         <key>ResizeUsePciRbIo</key>
         <false/>
+        <key>ShimRetainProtocol</key>
+        <false/>
       </dict>
       <key>ReservedMemory</key>
       <array>
