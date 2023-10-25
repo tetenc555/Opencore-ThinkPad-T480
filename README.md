@@ -4,17 +4,19 @@
 
 [![macOS](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Sonoma-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.3-blue)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.4-blue)](https://github.com/acidanthera/OpenCorePkg)
 [![License](https://img.shields.io/badge/license-MIT-purple)](/LICENSE)
 
 <p align="center">
    <strong>Status: Maintained</strong>
    <br />
-   <strong>Version: </strong>1.3.1
+   <strong>Version: </strong>1.3.2
    <br />
    <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/releases"><strong>Download now »</strong></a>
    <br />
-   <a href="https://github.com/valnoxy/t480-oc/issues">Report Bug</a>
+   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480-Kaby-Lake-Edition"><strong>Lenovo ThinkPad T480 Kaby Lake EFI »</strong></a>
+   <br />
+   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/issues">Report Bug</a>
    <a href="https://github.com/valnoxy/t480-oc/blob/main/CHANGELOG.md">View Changelog</a>
   </p>
 </p>
@@ -36,7 +38,7 @@ This repo includes multiple EFI configuations for different macOS Versions.
 | EFI               | Description                                                               | Type      |
 | ----------------- | ------------------------------------------------------------------------- | --------- |
 | `EFI - Intel`     | Supports macOS Ventura (using Airportitlwm)		                | `Stable`  |
-| `EFI - HeliPort`  | Supports every macOS Version (except Ventura), Requires HeliPort app      | `Stable`  |
+| `EFI - HeliPort`  | Supports every macOS Version, Requires HeliPort app      			| `Stable`  |
 | `EFI - Broadcom`  | Supports every macOS Version (except Sonoma)		                | `Beta`    |
 | `EFI - Sonoma`    | Supports macOS Sonoma (using Airportitlwm)				| `Beta`    |
 
@@ -113,8 +115,8 @@ python macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
 # Ventura (13)
 python macrecovery.py -b Mac-7BA5B2D9E42DDD94 download
 
-# Sonoma (14) (Beta)
------------------------------Coming Soon----------------------------------
+# Sonoma (14)
+python macrecovery.py -b Mac-CFF7D910A743CAAF -m 00000000000000000 download
 ```
 - After the download succeeded, type ```diskpart``` and wait until you see ```DISKPART>```
 
