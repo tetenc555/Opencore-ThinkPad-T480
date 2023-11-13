@@ -783,6 +783,8 @@
         <false/>
         <key>SyncRuntimePermissions</key>
         <false/>
+        <key>FixupAppleEfiImages</key>
+        <false/>
       </dict>
     </dict>
     <key>DeviceProperties</key>
