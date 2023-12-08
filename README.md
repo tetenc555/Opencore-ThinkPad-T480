@@ -69,7 +69,7 @@ These are the Hardware component I use. But this OpenCore configuation <strong>s
 </details>
 
 <details>  
-<summary><strong>Photos 📷 </strong></summary>
+<summary><strong> 📸 Photos </strong></summary>
 </br>
 
 ![IMG_2310](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/assets/72415505/b347f8fb-5dd1-4f3e-a24b-30a7f39c7c0c)
