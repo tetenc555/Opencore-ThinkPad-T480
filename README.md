@@ -78,7 +78,9 @@ These are the Hardware component I use. But this OpenCore configuation <strong>s
 ![IMG_1279](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/assets/72415505/a9a4d6a2-ea6a-4045-8c1d-b6f5050cc2a9)
 
 
+</details>  
 
+</details>
 
 
 &nbsp;
