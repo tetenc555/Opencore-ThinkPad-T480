@@ -5,13 +5,13 @@
 
 [![macOS](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Sonoma-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.5-blue)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.6-blue)](https://github.com/acidanthera/OpenCorePkg)
 [![License](https://img.shields.io/badge/license-MIT-purple)](/LICENSE)
 
 <p align="center">
    <strong>Status: Maintained</strong>
    <br />
-   <strong>Version: </strong>1.4.0
+   <strong>Version: </strong>1.4.1
    <br />
    <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/releases"><strong>Download now »</strong></a>
    <br />
@@ -67,6 +67,21 @@ These are the Hardware component I use. But this OpenCore configuation <strong>s
 </details>  
 
 </details>
+
+<details>  
+<summary><strong> 📸 Photos </strong></summary>
+</br>
+
+![IMG_2310](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/assets/72415505/b347f8fb-5dd1-4f3e-a24b-30a7f39c7c0c)
+![IMG_2178](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/assets/72415505/d055f1cb-c093-49d1-ad91-81d56e7d1f8d)
+![IMG_2130](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/assets/72415505/309a9feb-3264-425c-ad2e-c46104a2f0b8)
+![IMG_1279](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/assets/72415505/a9a4d6a2-ea6a-4045-8c1d-b6f5050cc2a9)
+
+
+</details>  
+
+</details>
+
 
 &nbsp;
 
