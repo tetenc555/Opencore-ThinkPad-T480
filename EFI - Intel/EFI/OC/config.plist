@@ -8,30 +8,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Disable Broadcom card during sleep</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-ARPT.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Disable Thunderbolt</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-OFFTB.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Disable MX150</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-OFFDGPU.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-AC</string>
 				<key>Enabled</key>
 				<true/>
@@ -141,6 +117,22 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-GPRW.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-EC-USBX-LAPTOP.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-PNLF-CFL.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -1677,6 +1669,24 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>ECEnabler.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/ECEnabler</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -2623,7 +2633,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02804405QXJH4R8C</string>
+			<string>C02825200CDJH4R1M</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -2635,9 +2645,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02W5MYMJHCC</string>
+			<string>C02WW0KGJHCC</string>
 			<key>SystemUUID</key>
-			<string>61EEC9EA-142E-4D94-B599-E2F9E057CCED</string>
+			<string>454C7DE3-3084-44E8-99BE-D719989DF416</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
