@@ -32,7 +32,7 @@
 			</dict>
 		</array>
 		<key>Delete</key>
-		<array/>
+		<array></array>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -205,9 +205,9 @@
 	<key>Booter</key>
 	<dict>
 		<key>MmioWhitelist</key>
-		<array/>
+		<array></array>
 		<key>Patch</key>
-		<array/>
+		<array></array>
 		<key>Quirks</key>
 		<dict>
 			<key>AllowRelocationBlock</key>
@@ -359,7 +359,7 @@
 			</dict>
 		</dict>
 		<key>Delete</key>
-		<dict/>
+		<dict></dict>
 	</dict>
 	<key>Kernel</key>
 	<dict>
@@ -835,7 +835,7 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array/>
+		<array></array>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
@@ -850,9 +850,9 @@
 			<string></string>
 		</dict>
 		<key>Force</key>
-		<array/>
+		<array></array>
 		<key>Patch</key>
-		<array/>
+		<array></array>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
@@ -917,7 +917,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array></array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -971,7 +971,7 @@
 			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
-		<array/>
+		<array></array>
 		<key>Security</key>
 		<dict>
 			<key>AllowSetDefault</key>
@@ -1036,7 +1036,7 @@
 			<true/>
 		</dict>
 		<key>Tools</key>
-		<array/>
+		<array></array>
 	</dict>
 	<key>NVRAM</key>
 	<dict>
@@ -1083,7 +1083,7 @@
 		<key>WriteFlash</key>
 		<true/>
 		<key>LegacySchema</key>
-		<dict/>
+		<dict></dict>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -1396,7 +1396,7 @@
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
-		<array/>
+		<array></array>
 	</dict>
 </dict>
 </plist>
