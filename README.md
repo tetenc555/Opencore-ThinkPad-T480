@@ -41,7 +41,7 @@ This repo includes multiple EFI configuations for different macOS Versions.
 | `EFI - Intel`     | Supports macOS Ventura (using Airportitlwm)		                | `Stable`  |
 | `EFI - HeliPort`  | Supports every macOS Version, Requires HeliPort app      			| `Stable`  |
 | `EFI - Broadcom`  | Supports every macOS Version (except Sonoma)		                | `Beta`    |
-| `EFI - Sonoma`    | Supports macOS Sonoma (using Airportitlwm)				| `Stable`    |
+| `EFI - Sonoma`    | Supports macOS Sonoma (using Airportitlwm)				| `Beta`    |
 
 > **Note** The Broadcom configuration is not stable. Use ```EFI``` instead for a better experience (you can also disable Airportitlwm).
 
@@ -311,7 +311,7 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 <summary><strong>✅ What's working</strong></summary>
 </br>
  
-- [X] Intel WiFi & Bluetooth (thanks to [itlwn](https://github.com/OpenIntelWireless/itlwm))
+- [X] Intel WiFi & Bluetooth (thanks to [itlwn](https://github.com/OpenIntelWireless/itlwm)) (Please use ```itwlm.kext``` and the Heliport App if you are using an i7 or using macOS Sonoma.)
 - [X] Brightness / Volume Control
 - [X] Battery Information
 - [X] Audio (Audio Jack & Speaker)
