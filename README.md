@@ -311,7 +311,7 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 <summary><strong>✅ What's working</strong></summary>
 </br>
  
-- [X] Intel WiFi & Bluetooth (thanks to [itlwn](https://github.com/OpenIntelWireless/itlwm)) (Please use ```itwlm.kext``` and the Heliport App if you are using an i7 or using macOS Sonoma for now.)
+- [X] Intel WiFi & Bluetooth ([Itlwm](https://github.com/OpenIntelWireless/itlwm) + [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases) for now.)
 - [X] Brightness / Volume Control
 - [X] Battery Information
 - [X] Audio (Audio Jack & Speaker)
