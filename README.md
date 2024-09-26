@@ -3,15 +3,16 @@
 ![repository-t480-template](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/assets/72415505/0307c12a-d992-4c37-8835-3b888c9e772e)
 
 
-[![macOS](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
+[![macOS](https://img.shields.io/badge/macOS-Ventura-orange.svg)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Sonoma-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
-[![OpenCore](https://img.shields.io/badge/OpenCore-1.0-blue)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS](https://img.shields.io/badge/macOS-Sequoia-blue.svg)](https://www.apple.com/macos/macos-sequoia/) 
+[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.1-blue)](https://github.com/acidanthera/OpenCorePkg)
 [![License](https://img.shields.io/badge/license-MIT-purple)](/LICENSE)
 
 <p align="center">
    <strong>Status: Maintained</strong>
    <br />
-   <strong>Version: </strong>2.0
+   <strong>Version: </strong>2.1
    <br />
    <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/releases"><strong>Download now »</strong></a>
    <br />
@@ -41,7 +42,8 @@ This repo includes multiple EFI configuations for different macOS Versions.
 | `EFI - Intel`     | Supports macOS Ventura (using Airportitlwm)		                | `Stable`  |
 | `EFI - HeliPort`  | Supports every macOS Version, Requires HeliPort app      			| `Stable`  |
 | `EFI - Broadcom`  | Supports every macOS Version (except Sonoma)		                | `Beta`    |
-| `EFI - Sonoma`    | Supports macOS Sonoma (using Airportitlwm)				| `Beta`    |
+| `EFI - Sonoma`    | Supports macOS Sonoma (using Itlwm and HeliPort)				| `Stable`  |
+| `EFI - Sequoia`   | Supports macOS Sequoia (using Itlwm and HeliPort)                         | `Beta`    |         
 
 > **Note** The Broadcom configuration is not stable. Use ```EFI``` instead for a better experience (you can also disable Airportitlwm).
 
