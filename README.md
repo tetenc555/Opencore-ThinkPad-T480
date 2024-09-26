@@ -105,8 +105,8 @@ I do not endorse or condone the use of pre-configured Hackintosh Distros because
 <summary><strong> ⚠️ Important Information for any i7 and/or macOS Sonoma Users ⚠️ </strong></summary>
 </br>
 	
-### 🛜 AirPortItwlm is still not stable yet! 🛜
-If you're using a ThinkPad T480, T480s or X280 that either is rocking an Intel Core i7 CPU and/or is running macOS Sonoma, please be aware that the ```AirPortItwlm``` kext is **NOT STABLE** yet. What I mean is that while the kext actually functions, **you will not be able to access any iServices (iMessage, FaceTime,etc.).** In order to have any access to iServices, please use the ```itwlm``` kext along with the ```HeliPort``` application until the ```AirPortItwlm``` kext is updated.
+### 🛜 AirPortItlwm is still not stable yet! 🛜
+If you're using a ThinkPad T480, T480s or X280 that either is rocking an Intel Core i7 CPU and/or is running macOS Sonoma, please be aware that the ```AirPortItlwm``` kext is **NOT STABLE** yet. What I mean is that while the kext actually functions, **you will not be able to access any iServices (iMessage, FaceTime,etc.).** In order to have any access to iServices, please use the ```itlwm``` kext along with the ```HeliPort``` application until the ```AirPortItlwm``` kext is updated.
 </details>
 
 
