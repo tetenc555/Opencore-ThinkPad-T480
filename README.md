@@ -7,7 +7,7 @@
 [![macOS](https://img.shields.io/badge/macOS-Monterey-hotpink.svg)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Ventura-orange.svg)](https://developer.apple.com/documentation/macos-release-notes)
 [![macOS](https://img.shields.io/badge/macOS-Sonoma-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
-[![macOS](https://img.shields.io/badge/macOS-Sequoia-blue.svg)](https://www.apple.com/macos/macos-sequoia/) 
+[![macOS](https://img.shields.io/badge/macOS-Sequoia-lightblue.svg)](https://www.apple.com/macos/macos-sequoia/) 
 [![OpenCore](https://img.shields.io/badge/OpenCore-1.0.1-blue)](https://github.com/acidanthera/OpenCorePkg)
 [![License](https://img.shields.io/badge/license-MIT-purple)](/LICENSE)
 
