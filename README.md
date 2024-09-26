@@ -11,7 +11,7 @@
 <p align="center">
    <strong>Status: Maintained</strong>
    <br />
-   <strong>Version: </strong>1.6.0
+   <strong>Version: </strong>2.0
    <br />
    <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/releases"><strong>Download now »</strong></a>
    <br />
@@ -41,7 +41,7 @@ This repo includes multiple EFI configuations for different macOS Versions.
 | `EFI - Intel`     | Supports macOS Ventura (using Airportitlwm)		                | `Stable`  |
 | `EFI - HeliPort`  | Supports every macOS Version, Requires HeliPort app      			| `Stable`  |
 | `EFI - Broadcom`  | Supports every macOS Version (except Sonoma)		                | `Beta`    |
-| `EFI - Sonoma`    | Supports macOS Sonoma (using Airportitlwm)				| `Stable`    |
+| `EFI - Sonoma`    | Supports macOS Sonoma (using Airportitlwm)				| `Beta`    |
 
 > **Note** The Broadcom configuration is not stable. Use ```EFI``` instead for a better experience (you can also disable Airportitlwm).
 
@@ -96,7 +96,15 @@ I do not endorse or condone the use of pre-configured Hackintosh Distros because
 </details>
 
 
+
+<details>  
+<summary><strong> ⚠️ Important Information for any i7 and/or macOS Sonoma Users ⚠️ </strong></summary>
+</br>
+	
+### 🛜 AirPortItwlm is still not stable yet! 🛜
+If you're using a ThinkPad T480, T480s or X280 that either is rocking an Intel Core i7 CPU and/or is running macOS Sonoma, please be aware that the ```AirPortItwlm``` kext is **NOT STABLE** yet. What I mean is that while the kext actually functions, **you will not be able to access any iServices (iMessage, FaceTime,etc.).** In order to have any access to iServices, please use the ```itwlm``` kext along with the ```HeliPort``` application until the ```AirPortItwlm``` kext is updated.
 </details>
+
 
 <details>  
 <summary><strong>📝 Requirements</strong></summary>
@@ -303,7 +311,7 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 <summary><strong>✅ What's working</strong></summary>
 </br>
  
-- [X] Intel WiFi & Bluetooth (thanks to [itlwn](https://github.com/OpenIntelWireless/itlwm))
+- [X] Intel WiFi & Bluetooth ([Itlwm](https://github.com/OpenIntelWireless/itlwm) + [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases) for now.)
 - [X] Brightness / Volume Control
 - [X] Battery Information
 - [X] Audio (Audio Jack & Speaker)
