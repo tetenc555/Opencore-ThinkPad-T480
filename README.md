@@ -1,6 +1,6 @@
 # Lenovo ThinkPad T480 OpenCore Configuation
 
-![repository-t480-template](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/assets/72415505/0307c12a-d992-4c37-8835-3b888c9e772e)
+![repository-open-graph-template-l24](https://github.com/user-attachments/assets/93d4fbc8-b233-4182-86d0-cc45ec1d32ae)
 
 
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur-red.svg)](https://developer.apple.com/documentation/macos-release-notes)
