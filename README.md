@@ -14,13 +14,9 @@
 <p align="center">
    <strong>Status: Maintained</strong>
    <br />
-   <strong>Version: </strong>2.1
+   <a href="https://github.com/tetenc555/Opencore-Thinkpad-T480/releases"><strong>Download now »</strong></a>
    <br />
-   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/releases"><strong>Download now »</strong></a>
-   <br />
-   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480-Kaby-Lake-Edition"><strong>Lenovo ThinkPad T480 Kaby Lake EFI »</strong></a>
-   <br />
-   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/issues">Report Bug</a>
+   <a href="https://github.com/tetenc555/Opencore-Thinkpad-T480/issues">Report Bug</a>
    <a href="https://github.com/valnoxy/t480-oc/blob/main/CHANGELOG.md">View Changelog</a>
    ·
    <a href="https://www.youtube.com/watch?v=thYDWyJuUq4">YouTube Video</a>
@@ -32,9 +28,11 @@
 This guide is only for the Lenovo ThinkPad T480. I am NOT responsible for any harm you cause to your device. This guide is provided "as-is" and all steps taken are done at your own risk.
 
 > The ACPI patches and the style of this README are from [EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh).
+> This repository is forked from [MultimediaLucario](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480) and a bit tweaked here and there, please checkout his fork too.
 
 > [!IMPORTANT]
 > Intel WiFi with Airportitlwm currently doesn't work under macOS Sequoia! Use the HeliPort version instead.
+> I recommend switching to an Broadcom card. I will use BCM94360NG and will configure this EFI mainly to run the newer macOS with this card.
 
 > [!NOTE]
 > The instructions for installing macOS have been moved [to the wiki](https://github.com/valnoxy/t480-oc/wiki).
@@ -50,23 +48,6 @@ Some users have reported that similar ThinkPads are compatible with this OpenCor
 
 ## Introduction
 
-### EFI folders
-
-This repo includes multiple EFI configuations for different macOS Versions.
-
-| EFI               | Description                                                               | Type      |
-| ----------------- | ------------------------------------------------------------------------- | --------- |
-| `EFI - Intel`     | Supports macOS Ventura (using Airportitlwm)		                | `Stable`  |
-| `EFI - HeliPort`  | Supports every macOS Version, Requires HeliPort app      			| `Stable`  |
-| `EFI - Broadcom`  | Supports every macOS Version (except Sonoma)		                | `Beta`    |
-| `EFI - Sonoma`    | Supports macOS Sonoma (using Itlwm and HeliPort)				| `Stable`  |
-| `EFI - Sequoia`   | Supports macOS Sequoia (using Itlwm and HeliPort)                         | `Stable`    |         
-
-> **Note** The Broadcom configuration is not stable. Use ```EFI``` instead for a better experience (you can also disable Airportitlwm).
-
-<a href="https://github.com/OpenIntelWireless/HeliPort/releases"><strong>
-Download HeliPort app »</strong></a>
-
 <details>
 <summary><strong>💻 My Hardware</strong></summary>
 <br>
@@ -76,12 +57,13 @@ Check the model of your WiFi & Bluetooth card. Intel cards should be compatible 
 
 | Category  | Component                            |
 | --------- | ------------------------------------ |
-| CPU       | Intel Core i5-8350U                  |
-| GPU       | Intel UHD Graphics 620               |
-| SSD       | Pioneer APS 1TB SATA SSD		   |
-| Memory    | 24GB DDR4 2400Mhz                    |
-| Camera    | 720p Camera                          |
-| WiFi & BT | Intel 18265 Wifi 	                   |
+| CPU       | Intel Core i7-8650U                  |
+| GPU       | Intel UHD Graphics 620 / NVIDIA GeForce MX150 (Disabled on macOS, works in Windows via BootCamp)|
+| SSD       | LiteOn NVME SSD 512GB		   |
+| Memory    | 16GB DDR4 2400Mhz                    |
+| Camera    | Camera with Windows Hello Face Recognition (only the camera works on macOS, works in Windows via BootCamp)|
+| WiFi & BT | Intel 18265 Wifi(for now) 	              |
+| Keyboard  | Backlight Keyboard |
 
 </details>  
 
@@ -114,15 +96,6 @@ Check the model of your WiFi & Bluetooth card. Intel cards should be compatible 
 I do not endorse or condone the use of pre-configured Hackintosh Distros because not only they cause unnecessary harm to your machine but it is considered to be a form of **Software Piracy**. Software Piracy is a serious crime according to copyright law and is punishable for up to 10 years in prison. 
 </details>
 
-
-
-<details>  
-<summary><strong> ⚠️ Important Information for any i7 and/or macOS Sonoma Users ⚠️ </strong></summary>
-</br>
-	
-### 🛜 AirPortItlwm is still not stable yet! 🛜
-If you're using a ThinkPad T480, T480s or X280 that either is rocking an Intel Core i7 CPU and/or is running macOS Sonoma, please be aware that the ```AirPortItlwm``` kext is **NOT STABLE** yet. What I mean is that while the kext actually functions, **you will not be able to access any iServices (iMessage, FaceTime,etc.).** In order to have any access to iServices, please use the ```itlwm``` kext along with the ```HeliPort``` application until the ```AirPortItlwm``` kext is updated.
-</details>
 
 
 <details>  
@@ -230,7 +203,7 @@ After you've finished with the neccesary tweaks, you have to copy the EFI folder
 The bios must be properly configured prior to installing macOS.
 In Security menu, set the following settings:
 
--  `Security > Security Chip`: must be **Disabled**
+-  `Security > Security Chip`: **Enabled** did it for Windows 11 and it worked fine. You should disable if you're not using Windows.
 -  `Memory Protection > Execution Prevention`: must be **Enabled**
 -  `Virtualization > Intel Virtualization Technology`: must be **Enabled**
 -  `Virtualization > Intel VT-d Feature`: must be **Enabled**
@@ -361,6 +334,7 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 - [ ] Safari DRM ```Use Chromium powered Browser or Firefox to watch Amazon Prime Video, Netflix, Disney+ and others```
 - [ ] AirDrop & Continuity
 - [ ] Fingerprint Reader (Disabled with NoTouchID kext)
+- [ ] Facial Recognition (Camera works fine on macOS)
 - [ ] Sidecar Wireless
 - [ ] Apple Watch Unlock
 - [ ] Dualbooting Windows / Linux (with OpenCore) 
