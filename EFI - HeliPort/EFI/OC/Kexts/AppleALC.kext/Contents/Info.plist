@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
+<<<<<<< HEAD:EFI - HeliPort/EFI/OC/Kexts/AppleALC.kext/Contents/Info.plist
 	<string>21G320</string>
+=======
+	<string>23F79</string>
+>>>>>>> main:EFI/OC/Kexts/AppleALC.kext/Contents/Info.plist
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +21,11 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
+<<<<<<< HEAD:EFI - HeliPort/EFI/OC/Kexts/AppleALC.kext/Contents/Info.plist
 	<string>1.9.2</string>
+=======
+	<string>1.9.1</string>
+>>>>>>> main:EFI/OC/Kexts/AppleALC.kext/Contents/Info.plist
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,6 +33,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
+<<<<<<< HEAD:EFI - HeliPort/EFI/OC/Kexts/AppleALC.kext/Contents/Info.plist
 	<string>1.9.2</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
@@ -42,6 +51,25 @@
 	<string>1420</string>
 	<key>DTXcodeBuild</key>
 	<string>14C18</string>
+=======
+	<string>1.9.1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string></string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>13.3</string>
+	<key>DTSDKBuild</key>
+	<string>22E245</string>
+	<key>DTSDKName</key>
+	<string>macosx13.3</string>
+	<key>DTXcode</key>
+	<string>1431</string>
+	<key>DTXcodeBuild</key>
+	<string>14E300c</string>
+>>>>>>> main:EFI/OC/Kexts/AppleALC.kext/Contents/Info.plist
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ALCUserClientProvider</key>

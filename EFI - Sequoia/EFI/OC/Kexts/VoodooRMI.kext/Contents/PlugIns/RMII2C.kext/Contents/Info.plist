@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
+<<<<<<< HEAD:EFI - Sequoia/EFI/OC/Kexts/VoodooRMI.kext/Contents/PlugIns/RMII2C.kext/Contents/Info.plist
 	<string>23H124</string>
+=======
+	<string>19H1615</string>
+>>>>>>> main:EFI/OC/Kexts/VoodooRMI.kext/Contents/PlugIns/RMII2C.kext/Contents/Info.plist
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

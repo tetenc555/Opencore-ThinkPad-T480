@@ -3,51 +3,51 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>18G1012</string>
+	<string>19H2026</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>NoTouchID</string>
+	<string>IntelBTPatcher</string>
 	<key>CFBundleIdentifier</key>
-	<string>xyz.racermaster.NoTouchID</string>
+	<string>com.zxystd.IntelBTPatcher</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>NoTouchID</string>
+	<string>IntelBTPatcher</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.3</string>
+	<string>2.3.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0.3</string>
+	<string>2.3.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11B500</string>
+	<string>11E801a</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>19B89</string>
+	<string>19G68</string>
 	<key>DTSDKName</key>
 	<string>macosx10.15</string>
 	<key>DTXcode</key>
-	<string>1120</string>
+	<string>1170</string>
 	<key>DTXcodeBuild</key>
-	<string>11B500</string>
+	<string>11E801a</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>NoTouchID</key>
+		<key>IntelBTPatcher</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>xyz.racermaster.NoTouchID</string>
+			<string>com.zxystd.IntelBTPatcher</string>
 			<key>IOClass</key>
-			<string>NoTouchID</string>
+			<string>IntelBTPatcher</string>
 			<key>IOMatchCategory</key>
-			<string>NoTouchID</string>
+			<string>IntelBTPatcher</string>
 			<key>IOProviderClass</key>
 			<string>IOResources</string>
 			<key>IOResourceMatch</key>
@@ -55,13 +55,15 @@
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.13</string>
-	<key>OSBundleCompatibleVersion</key>
-	<string>1.0</string>
+	<string>10.12</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2022 zxystd. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>as.vit9696.Lilu</key>
 		<string>1.2.0</string>
+		<key>com.apple.iokit.IOUSBHostFamily</key>
+		<string>1.2</string>
 		<key>com.apple.kpi.bsd</key>
 		<string>12.0.0</string>
 		<key>com.apple.kpi.dsep</key>
@@ -75,7 +77,5 @@
 		<key>com.apple.kpi.unsupported</key>
 		<string>12.0.0</string>
 	</dict>
-	<key>OSBundleRequired</key>
-	<string>Root</string>
 </dict>
 </plist>

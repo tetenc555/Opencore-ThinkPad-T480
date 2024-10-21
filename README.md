@@ -22,6 +22,8 @@
    <br />
    <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/issues">Report Bug</a>
    <a href="https://github.com/valnoxy/t480-oc/blob/main/CHANGELOG.md">View Changelog</a>
+   ·
+   <a href="https://www.youtube.com/watch?v=thYDWyJuUq4">YouTube Video</a>
   </p>
 </p>
 </br>
@@ -31,7 +33,20 @@ This guide is only for the Lenovo ThinkPad T480. I am NOT responsible for any ha
 
 > The ACPI patches and the style of this README are from [EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh).
 
+> [!IMPORTANT]
+> Intel WiFi with Airportitlwm currently doesn't work under macOS Sequoia! Use the HeliPort version instead.
+
+> [!NOTE]
+> The instructions for installing macOS have been moved [to the wiki](https://github.com/valnoxy/t480-oc/wiki).
+
+
 &nbsp;
+
+## 💻 Tested devices
+Some users have reported that similar ThinkPads are compatible with this OpenCore configuration. Here is a list of these devices:
+
+- Lenovo ThinkPad T580
+- [Lenovo ThinkPad X280](https://github.com/valnoxy/t480-oc/discussions/47)
 
 ## Introduction
 
@@ -57,7 +72,7 @@ Download HeliPort app »</strong></a>
 <br>
 These are the Hardware component I use. But this OpenCore configuation <strong>should still work</strong> with your device, even if the components are not equal.
 
-> **Note** Check the model of your WiFi & Bluetooth card. Intel cards should be compatible with itlwm (or AirportItlwm). If your card is from another manufacturer, please check if your card supports macOS.
+Check the model of your WiFi & Bluetooth card. Intel cards should be compatible with itlwm (or AirportItlwm). If your card is from another manufacturer, please check if your card supports macOS. macOS Sonoma no longer supports Broadcom Wifi cards.
 
 | Category  | Component                            |
 | --------- | ------------------------------------ |
@@ -348,6 +363,8 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 - [ ] Fingerprint Reader (Disabled with NoTouchID kext)
 - [ ] Sidecar Wireless
 - [ ] Apple Watch Unlock
+- [ ] Dualbooting Windows / Linux (with OpenCore) 
+  - Theoretically this works, but the ACPI patches can make the operating system unstable.
 
 </details>
 
@@ -375,7 +392,7 @@ This repo is licensed under the [MIT License](https://github.com/valnoxy/t480-oc
 OpenCore is licensed under the [BSD 3-Clause License](https://github.com/acidanthera/OpenCorePkg/blob/master/LICENSE.txt).
 
 <hr>
-<h6 align="center">© 2018 - 2022 valnoxy. All Rights Reserved. 
+<h6 align="center">© 2018 - 2024 valnoxy. All Rights Reserved. 
 <br>
 By Jonas Günner &lt;jonas@exploitox.de&gt;</h6>
 <p align="center">
