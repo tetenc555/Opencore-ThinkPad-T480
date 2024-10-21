@@ -17,9 +17,8 @@
    <a href="https://github.com/tetenc555/Opencore-ThinkPad-T480/releases"><strong>Download now »</strong></a>
    <br />
    <a href="https://github.com/tetenc555/Opencore-ThinkPad-T480/issues">Report Bug</a>
-   <a href="https://github.com/valnoxy/t480-oc/blob/main/CHANGELOG.md">View Changelog</a>
    ·
-   <a href="https://www.youtube.com/watch?v=thYDWyJuUq4">YouTube Video</a>
+   <a href="https://www.youtube.com/watch?v=thYDWyJuUq4">YouTube Video from Valnoxy</a>
   </p>
 </p>
 </br>
@@ -31,10 +30,11 @@ This guide is only for the Lenovo ThinkPad T480. I am NOT responsible for any ha
 > I recommend switching to an Broadcom card. I will use BCM94360NG and will configure this EFI mainly to run the newer macOS with this card.
 
 > The ACPI patches and the style of this README are from [EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh).
+
 > This repository is forked from [MultimediaLucario](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480) and a bit tweaked here and there, please checkout his fork too.
 
 
-> Intel WiFi with Airportitlwm currently doesn't work under macOS Sequoia! Use the HeliPort version instead.
+> Intel WiFi with Airportitlwm currently doesn't work under macOS Sequoia! Use Heliport instead. For now, as im still using Intel, itlwm is already configurated.
  
 
 
@@ -64,6 +64,7 @@ Check the model of your WiFi & Bluetooth card. Intel cards should be compatible 
 | Camera    | Camera with Windows Hello Face Recognition (only the camera works on macOS, works in Windows via BootCamp)|
 | WiFi & BT | Intel 18265 Wifi (for now) 	              |
 | Keyboard  | Backlight Keyboard |
+| Display | 1080p panel with TouchScreen |
 
 </details>  
 
@@ -315,6 +316,7 @@ After creating the install media, copy your EFI folder to the EFI partition of y
  
 - [X] Intel WiFi & Bluetooth ([Itlwm](https://github.com/OpenIntelWireless/itlwm) + [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases) for now.)
 - [X] Brightness / Volume Control
+- [X] FullHD Screen with TouchScreens and Gestures (Gestures are trackpad-like)
 - [X] Keyboard Backlight and Fan Control via YogaSMC
 - [X] Battery Information
 - [X] Audio (Audio Jack & Speaker)
@@ -341,7 +343,6 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 - [ ] Safari DRM ```Use Chromium powered Browser or Firefox to watch Amazon Prime Video, Netflix, Disney+ and others```
 - [ ] Fingerprint Reader (Disabled with NoTouchID kext)
 - [ ] Facial Recognition (Camera works fine on macOS)
-- [ ] Dualbooting Windows / Linux (with OpenCore)
 
 ### <strong>With Intel Wifi:</strong>
 - [ ] AirDrop & Continuity (with Intel Wifi)
