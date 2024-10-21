@@ -14,9 +14,9 @@
 <p align="center">
    <strong>Status: Maintained</strong>
    <br />
-   <a href="https://github.com/tetenc555/Opencore-Thinkpad-T480/releases"><strong>Download now »</strong></a>
+   <a href="https://github.com/tetenc555/Opencore-ThinkPad-T480/releases"><strong>Download now »</strong></a>
    <br />
-   <a href="https://github.com/tetenc555/Opencore-Thinkpad-T480/issues">Report Bug</a>
+   <a href="https://github.com/tetenc555/Opencore-ThinkPad-T480/issues">Report Bug</a>
    <a href="https://github.com/valnoxy/t480-oc/blob/main/CHANGELOG.md">View Changelog</a>
    ·
    <a href="https://www.youtube.com/watch?v=thYDWyJuUq4">YouTube Video</a>
@@ -32,6 +32,7 @@ This guide is only for the Lenovo ThinkPad T480. I am NOT responsible for any ha
 
 > [!IMPORTANT]
 > Intel WiFi with Airportitlwm currently doesn't work under macOS Sequoia! Use the HeliPort version instead.
+
 > I recommend switching to an Broadcom card. I will use BCM94360NG and will configure this EFI mainly to run the newer macOS with this card.
 
 > [!NOTE]
@@ -62,7 +63,7 @@ Check the model of your WiFi & Bluetooth card. Intel cards should be compatible 
 | SSD       | LiteOn NVME SSD 512GB		   |
 | Memory    | 16GB DDR4 2400Mhz                    |
 | Camera    | Camera with Windows Hello Face Recognition (only the camera works on macOS, works in Windows via BootCamp)|
-| WiFi & BT | Intel 18265 Wifi(for now) 	              |
+| WiFi & BT | Intel 18265 Wifi (for now) 	              |
 | Keyboard  | Backlight Keyboard |
 
 </details>  
@@ -72,7 +73,7 @@ Check the model of your WiFi & Bluetooth card. Intel cards should be compatible 
 <details>  
 <summary><strong> 📸 Photos </strong></summary>
 </br>
-
+###<strong>Photos from MultimediaLucario!</strong>
 ![IMG_2310](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/assets/72415505/b347f8fb-5dd1-4f3e-a24b-30a7f39c7c0c)
 ![IMG_2178](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/assets/72415505/d055f1cb-c093-49d1-ad91-81d56e7d1f8d)
 ![IMG_2130](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/assets/72415505/309a9feb-3264-425c-ad2e-c46104a2f0b8)
@@ -155,8 +156,13 @@ python macrecovery.py -b Mac-CFF7D910A743CAAF -m 00000000000000000 download
 After the install media was created, we need to make the USB drive bootable.
 
 ### Updating Thunderbolt Firmware
-To have thunderbolt fully working on macOS, you need to make sure you have FW23 (latest). To do that, right click on Thunderbolt Control Center in system tray and, in the About section, check the FW. You should update cause Lenovo also [fixes a serious problem](https://www.notebookcheck.net/ThinkPad-Thunderbolt-3-failure-What-s-happening-why-it-s-happening-and-how-to-fix-it.451207.0.html) on this new FW. You can either do the update via Lenovo Vantage or following [these instructions](https://github.com/pierpaolodimarzo/ThinkPad-T480/issues/9)
-Thanks pierpaolodimarzo for the help on making thunderbolt work on this machine! - Becca 
+To have thunderbolt fully working on macOS, you need to make sure you have FW23 (latest).
+
+To do that, right click on Thunderbolt Control Center in system tray and, in the About section, check the FW. You should update cause Lenovo also [fixes a serious problem](https://www.notebookcheck.net/ThinkPad-Thunderbolt-3-failure-What-s-happening-why-it-s-happening-and-how-to-fix-it.451207.0.html) on this new FW. 
+
+You can either do the update via Lenovo Vantage or following [these instructions](https://github.com/pierpaolodimarzo/ThinkPad-T480/issues/9)
+
+<strong>Thanks pierpaolodimarzo for the help on making thunderbolt work on this machine! - Becca </strong>
 
 ### Configure and install OpenCore
 Download the EFI folder from this repo, you will find the latest files under the release tab or just download the repo as it is. Move the folder to the root of your pendrive (e.g. J:\) and rename the folder to ```EFI```.
@@ -309,6 +315,7 @@ After creating the install media, copy your EFI folder to the EFI partition of y
  
 - [X] Intel WiFi & Bluetooth ([Itlwm](https://github.com/OpenIntelWireless/itlwm) + [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases) for now.)
 - [X] Brightness / Volume Control
+- [X] Keyboard Backlight and Fan Control via YogaSMC
 - [X] Battery Information
 - [X] Audio (Audio Jack & Speaker)
 - [X] USB Ports & Built-in Camera
@@ -332,13 +339,14 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 </br>
 
 - [ ] Safari DRM ```Use Chromium powered Browser or Firefox to watch Amazon Prime Video, Netflix, Disney+ and others```
-- [ ] AirDrop & Continuity
 - [ ] Fingerprint Reader (Disabled with NoTouchID kext)
 - [ ] Facial Recognition (Camera works fine on macOS)
+- [ ] Dualbooting Windows / Linux (with OpenCore) 
+<strong>With Intel Wifi:</strong>
+- [ ] AirDrop & Continuity (with Intel Wifi)
 - [ ] Sidecar Wireless
 - [ ] Apple Watch Unlock
-- [ ] Dualbooting Windows / Linux (with OpenCore) 
-  - Theoretically this works, but the ACPI patches can make the operating system unstable.
+
 
 </details>
 
