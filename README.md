@@ -45,7 +45,7 @@ This repo includes multiple EFI configuations for different macOS Versions.
 | `EFI - HeliPort`  | Supports every macOS Version, Requires HeliPort app      			| `Stable`  |
 | `EFI - Broadcom`  | Supports every macOS Version (except Sonoma)		                | `Beta`    |
 | `EFI - Sonoma`    | Supports macOS Sonoma (using Itlwm and HeliPort)				| `Stable`  |
-| `EFI - Sequoia`   | Supports macOS Sequoia (using Itlwm and HeliPort)                         | `Beta`    |         
+| `EFI - Sequoia`   | Supports macOS Sequoia (using Itlwm and HeliPort)                         | `Stable`    |         
 
 > **Note** The Broadcom configuration is not stable. Use ```EFI``` instead for a better experience (you can also disable Airportitlwm).
 
@@ -166,6 +166,10 @@ python macrecovery.py -b Mac-CFF7D910A743CAAF -m 00000000000000000 download
 
 After the install media was created, we need to make the USB drive bootable.
 
+### Updating Thunderbolt Firmware
+To have thunderbolt fully working on macOS, you need to make sure you have FW23 (latest). To do that, right click on Thunderbolt Control Center in system tray and, in the About section, check the FW. You should update cause Lenovo also [fixes a serious problem](https://www.notebookcheck.net/ThinkPad-Thunderbolt-3-failure-What-s-happening-why-it-s-happening-and-how-to-fix-it.451207.0.html) on this new FW. You can either do the update via Lenovo Vantage or following [these instructions](https://github.com/pierpaolodimarzo/ThinkPad-T480/issues/9)
+Thanks pierpaolodimarzo for the help on making thunderbolt work on this machine! - Becca 
+
 ### Configure and install OpenCore
 Download the EFI folder from this repo, you will find the latest files under the release tab or just download the repo as it is. Move the folder to the root of your pendrive (e.g. J:\) and rename the folder to ```EFI```.
 
@@ -196,7 +200,6 @@ Please enable / disable the following patches depending on what is installed in 
 | SSDT              | Affected device            | Description                                                |
 | ----------------- | -------------------------- | ---------------------------------------------------------- |
 | SSDT-ARPT.aml     | Broadcom cards             | Disable Broadcom card during sleep                         |
-| SSDT-OFFTB.aml    | Thunderbolt                | Disable Thunderbolt                                        |
 | SSDT-OFFGDGPU.aml | NVIDIA GeForce MX 150      | Disable NVIDIA GPU (necessary if installed)                |
 
 ### Install OpenCore
@@ -228,10 +231,11 @@ In Startup menu, set the following options:
 
 In Thunderbolt menu, set the following options:
 
--  `Thunderbolt BIOS Assist Mode`: **UEFI Only**
--  `Wake by Thunderbolt(TM) 3`: **No**
--  `Security Level`: **No**
--  `Support in Pre Boot Environment > Thunderbolt(TM) device`: **No**
+-  `Thunderbolt BIOS Assist Mode`: **Disabled**
+-  `Wake by Thunderbolt(TM) 3`: **Disabled**
+-  `Security Level`: **Disabled**
+-  `Support in Pre Boot Environment > Thunderbolt(TM) device`: **Enabled**
+
 
 Now you can go through the install.
 
@@ -329,7 +333,9 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 - [X] Handoff / Universal Clipboard
 - [X] Sidecar (Cable) / AirPlay to Mac
 - [X] SIP / FireVault 2
-- [X] USB-C
+- [X] USB-C 3.1 with DisplayPort
+- [X] Thunderbolt 3
+- [X] Dualbooting Windows (with OpenCore and BootCamp)
 
 </details>
 
@@ -340,7 +346,6 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 - [ ] Safari DRM ```Use Chromium powered Browser or Firefox to watch Amazon Prime Video, Netflix, Disney+ and others```
 - [ ] AirDrop & Continuity
 - [ ] Fingerprint Reader (Disabled with NoTouchID kext)
-- [ ] Thunderbolt 3
 - [ ] Sidecar Wireless
 - [ ] Apple Watch Unlock
 
@@ -351,7 +356,8 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 </br>
 
 - [ ] WWAN
-- [ ] Dualbooting Windows / Linux (with OpenCore)
+- [ ] Dualbooting Linux (with OpenCore)
+
 
 </details>
 
