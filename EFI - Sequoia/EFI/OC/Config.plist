@@ -976,16 +976,44 @@
                     <key>AAPL,GfxYTile</key>
                     <data>AQAAAA==</data>
                     <key>AAPL,ig-platform-id</key>
-                    <data>AAAbWQ==</data>
+                    <data>AADAhw==</data>
                     <key>AAPL,slot-name</key>
                     <string>Internal@0,2,0</string>
+                    <key>backlight-smoother-interval</key>
+                    <data>BwAAAA==</data>
+                    <key>backlight-smoother-steps</key>
+                    <data>IwAAAA==</data>
                     <key>device-id</key>
                     <data>FlkAAA==</data>
                     <key>device_type</key>
-                    <string>VGA compatible controller</string>
-                    <key>disable-external-gpu</key>
+                    <string>Display Controller</string>
+                    <key>enable-backlight-smoother</key>
                     <data>AQAAAA==</data>
                     <key>enable-hdmi20</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-lspcon-support</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-max-pixel-clock-override</key>
+                    <data>AQAAAA==</data>
+                    <key>force-online</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-alldata</key>
+                    <data>AAAIAAIAAACYAAAA</data>
+                    <key>framebuffer-con0-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-has-lspcon</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-alldata</key>
+                    <data>AQUJAAAIAACHAQAA</data>
+                    <key>framebuffer-con1-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-has-lspcon</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con2-alldata</key>
+                    <data>AgQKAAAIAACHAQAA</data>
+                    <key>framebuffer-con2-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con2-has-lspcon</key>
                     <data>AQAAAA==</data>
                     <key>framebuffer-fbmem</key>
                     <data>AACQAA==</data>
@@ -994,11 +1022,13 @@
                     <key>framebuffer-stolenmem</key>
                     <data>AAAwAQ==</data>
                     <key>framebuffer-unifiedmem</key>
-                    <data>AAAAgA==</data>
+                    <data>/////w==</data>
                     <key>hda-gfx</key>
                     <string>onboard-1</string>
                     <key>model</key>
                     <string>Intel HD Graphics 620</string>
+                    <key>rps-control</key>
+                    <data>AQAAAA==</data>
                 </dict>
             </dict>
             <key>Delete</key>
