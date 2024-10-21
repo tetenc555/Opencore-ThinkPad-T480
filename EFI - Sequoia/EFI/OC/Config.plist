@@ -8,6 +8,14 @@
             <array>
                 <dict>
                     <key>Comment</key>
+                    <string>Fix ThunderBolt always on and beign detected as PCIExpress</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-TbtOnPch-ThinkPad-T480-OC-DTPG.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
                     <string>Disable Broadcom card during sleep</string>
                     <key>Enabled</key>
                     <false/>
@@ -16,27 +24,11 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Disable Thunderbolt</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>SSDT-OFFTB.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
                     <string>Disable MX150</string>
                     <key>Enabled</key>
                     <false/>
                     <key>Path</key>
                     <string>SSDT-OFFDGPU.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string>SSDT-AC</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-AC.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
@@ -173,9 +165,53 @@
                     <key>TableSignature</key>
                     <data>U1NEVA==</data>
                 </dict>
+                <dict>
+                    <key>All</key>
+                    <false/>
+                    <key>Comment</key>
+                    <string>Drop OEM DMAR Table</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>OemTableId</key>
+                    <data></data>
+                    <key>TableLength</key>
+                    <integer>0</integer>
+                    <key>TableSignature</key>
+                    <data>RE1BUg==</data>
+                </dict>
             </array>
             <key>Patch</key>
             <array>
+                <dict>
+                    <key>Base</key>
+                    <string></string>
+                    <key>BaseSkip</key>
+                    <integer>0</integer>
+                    <key>Comment</key>
+                    <string>TB3:_INI with XINI for RP09</string>
+                    <key>Count</key>
+                    <integer>1</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data>X0lOSQ==</data>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>OemTableId</key>
+                    <data></data>
+                    <key>Replace</key>
+                    <data>WElOSQ==</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>11</integer>
+                    <key>TableLength</key>
+                    <integer>0</integer>
+                    <key>TableSignature</key>
+                    <data></data>
+                </dict>
                 <dict>
                     <key>Base</key>
                     <string></string>
@@ -216,7 +252,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>BkdQUlcCcA==</data>
                     <key>Limit</key>
