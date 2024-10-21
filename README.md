@@ -27,16 +27,15 @@
 ## ⚠️ Disclaimer
 This guide is only for the Lenovo ThinkPad T480. I am NOT responsible for any harm you cause to your device. This guide is provided "as-is" and all steps taken are done at your own risk.
 
+> [!IMPORTANT]
+> I recommend switching to an Broadcom card. I will use BCM94360NG and will configure this EFI mainly to run the newer macOS with this card.
+
 > The ACPI patches and the style of this README are from [EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh).
 > This repository is forked from [MultimediaLucario](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480) and a bit tweaked here and there, please checkout his fork too.
 
-> [!IMPORTANT]
+
 > Intel WiFi with Airportitlwm currently doesn't work under macOS Sequoia! Use the HeliPort version instead.
-
-> I recommend switching to an Broadcom card. I will use BCM94360NG and will configure this EFI mainly to run the newer macOS with this card.
-
-> [!NOTE]
-> The instructions for installing macOS have been moved [to the wiki](https://github.com/valnoxy/t480-oc/wiki).
+ 
 
 
 &nbsp;
@@ -73,7 +72,8 @@ Check the model of your WiFi & Bluetooth card. Intel cards should be compatible 
 <details>  
 <summary><strong> 📸 Photos </strong></summary>
 </br>
-###<strong>Photos from MultimediaLucario!</strong>
+
+### <strong>Photos from MultimediaLucario!</strong>
 ![IMG_2310](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/assets/72415505/b347f8fb-5dd1-4f3e-a24b-30a7f39c7c0c)
 ![IMG_2178](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/assets/72415505/d055f1cb-c093-49d1-ad91-81d56e7d1f8d)
 ![IMG_2130](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480/assets/72415505/309a9feb-3264-425c-ad2e-c46104a2f0b8)
@@ -341,8 +341,9 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 - [ ] Safari DRM ```Use Chromium powered Browser or Firefox to watch Amazon Prime Video, Netflix, Disney+ and others```
 - [ ] Fingerprint Reader (Disabled with NoTouchID kext)
 - [ ] Facial Recognition (Camera works fine on macOS)
-- [ ] Dualbooting Windows / Linux (with OpenCore) 
-<strong>With Intel Wifi:</strong>
+- [ ] Dualbooting Windows / Linux (with OpenCore)
+
+### <strong>With Intel Wifi:</strong>
 - [ ] AirDrop & Continuity (with Intel Wifi)
 - [ ] Sidecar Wireless
 - [ ] Apple Watch Unlock
