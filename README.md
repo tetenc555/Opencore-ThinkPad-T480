@@ -27,7 +27,7 @@
 This guide is only for the Lenovo ThinkPad T480. I am NOT responsible for any harm you cause to your device. This guide is provided "as-is" and all steps taken are done at your own risk.
 
 > [!IMPORTANT]
-> I recommend switching to an Broadcom card. I will use BCM94360NG and will configure this EFI mainly to run the newer macOS with this card.
+> I recommend switching to an Broadcom card. I will use a BCM94360NG and this EFI principal purpouse is to run the newer macOS with this card.
 
 > The ACPI patches and the style of this README are from [EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh).
 
@@ -62,7 +62,7 @@ Check the model of your WiFi & Bluetooth card. Intel cards should be compatible 
 | SSD       | LiteOn NVME SSD 512GB		   |
 | Memory    | 16GB DDR4 2400Mhz                    |
 | Camera    | Camera with Windows Hello Face Recognition (only the camera works on macOS, works in Windows via BootCamp)|
-| WiFi & BT | Intel 18265 Wifi (for now) 	              |
+| WiFi & BT | Apple BCM94360NG NVME from AliExpress	 |
 | Keyboard  | Backlight Keyboard |
 | Display | 1080p panel with TouchScreen |
 
@@ -242,7 +242,14 @@ Now you can go through the install.
 4. After erasing, go back and select **Reinstall macOS** and follow the steps on your screen. The installation make take up to **2 hours**.
 >  **Note:** Your PC will restart multiple times. Just boot from USB and select your disk inside of OpenCore. (named macOS Installer or the disk name).
 5. Once you see the `Region selection` screen, you are good to proceed.
-6. Create your user accound and everything else.
+6. Create your user account and everything else.
+
+### Fixing Broadcom Wi-Fi
+Everything is already configured on the EFI so we just need to run OCLP patch
+1. Use an wired connection via Ethernet, Bluetooth or iPhone USB to download OCLP via their website
+2. Run the Post-Installation Root Patch and reboot! 
+
+Enjoy full continuity on your setup <3
 
 </details>
 
@@ -334,6 +341,10 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 - [X] Thunderbolt 3
 - [X] Dualbooting Windows (with OpenCore and BootCamp)
 
+### <strong>With Broadcom Wifi:</strong>
+- [ ] AirDrop & Continuity (with Intel Wifi)
+- [ ] Sidecar Wireless
+
 </details>
 
 <details>  
@@ -358,6 +369,9 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 
 - [ ] WWAN
 - [ ] Dualbooting Linux (with OpenCore)
+
+### <strong>With Broadcom Wifi:</strong>
+- [ ] Apple Watch Unlock
 
 
 </details>
