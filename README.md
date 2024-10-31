@@ -356,8 +356,8 @@ To do this, follow these steps:
 - [X] Dualbooting Windows (with OpenCore and BootCamp)
 
 ### <strong>With Broadcom Wifi:</strong>
-- [ ] AirDrop & Continuity (with Intel Wifi)
-- [ ] Sidecar Wireless
+- [X] AirDrop & Continuity (with Intel Wifi)
+- [X] Sidecar Wireless
 
 </details>
 
