@@ -34,9 +34,6 @@ This guide is only for the Lenovo ThinkPad T480. I am NOT responsible for any ha
 > This repository is forked from [MultimediaLucario](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480) and a bit tweaked here and there, please checkout his fork too.
 
 
-> Intel WiFi with Airportitlwm currently doesn't work under macOS Sequoia! Use Heliport instead. For now, as im still using Intel, itlwm is already configurated.
- 
-
 
 &nbsp;
 
@@ -312,16 +309,33 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 
 
 </details>
+<details>
+<summary><strong>🖥️ Configure HIDPI for your monitors OwO (Optional)</strong></summary>
+</br>
+
+You can enable native HIDPI configurations with [this library](https://github.com/xzhih/one-key-hidpi)! I recommend doing it on your main display on any resolution, as i myself was using the full hd configuration on a hd screen on my old Lenovo Ideapad. This will cause some pixelation on these HD screens tho. For FullHD and 2K Built-Ins it is a super recommended configuration, cause you can get better screenshots and native scaling resolutions on system settings, as you can see right here:
+
+<img src="https://github.com/tetenc555/Opencore-ThinkPad-T480/blob/main/assets/ScreenshotHIDPI.png" width="500px" height="auto" />
+
+To do this, follow these steps:
+1. Access the [repo](https://github.com/xzhih/one-key-hidpi) and download it as zip (or clone it) on any folder
+2. Open terminal on the HIDPI-master folder
+3. Run the command file (using ./)
+4. Select your screen (if you have more than one), your resolution and the icon you preffer (for the built-in one, i recommend the macbook pro icon)
+5. If you have problems with scaling after sleep, run it again and choose the resolution with "fix scale after sleep" option.
+
+
+</details>
 
 &nbsp;
 
 ## Status
 
 <details>  
-<summary><strong>✅ What's working</strong></summary>
+<summary><strong>✅ What's working :3 </strong></summary>
 </br>
  
-- [X] Intel WiFi & Bluetooth ([Itlwm](https://github.com/OpenIntelWireless/itlwm) + [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases) for now.)
+- [X] Intel WiFi & Bluetooth (Please configure it yourself or use [Multimida Lucario's EFI](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T480))
 - [X] Brightness / Volume Control
 - [X] FullHD Screen with TouchScreens and Gestures (Gestures are trackpad-like)
 - [X] Keyboard Backlight and Fan Control via YogaSMC
@@ -336,7 +350,7 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 - [X] Automatic OS updates
 - [X] Handoff / Universal Clipboard
 - [X] Sidecar (Cable) / AirPlay to Mac
-- [X] SIP / FireVault 2
+- [X] SIP / FireVault 2 (Using 03080000 configuration for Native Wi-Fi in Sequoia)
 - [X] USB-C 3.1 with DisplayPort
 - [X] Thunderbolt 3
 - [X] Dualbooting Windows (with OpenCore and BootCamp)
@@ -348,7 +362,7 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 </details>
 
 <details>  
-<summary><strong>⚠️ What's not working</strong></summary>
+<summary><strong>⚠️ What's not working =.= </strong></summary>
 </br>
 
 - [ ] Safari DRM ```Use Chromium powered Browser or Firefox to watch Amazon Prime Video, Netflix, Disney+ and others```
@@ -364,11 +378,12 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 </details>
 
 <details>  
-<summary><strong>🔄 Not tested</strong></summary>
+<summary><strong>🔄 Not tested (yet) :< </strong></summary>
 </br>
 
 - [ ] WWAN
 - [ ] Dualbooting Linux (with OpenCore)
+- [ ] 4k60 output via HDMI 2.0 (in both USB-Cs and HDMI ports)
 
 ### <strong>With Broadcom Wifi:</strong>
 - [ ] Apple Watch Unlock
