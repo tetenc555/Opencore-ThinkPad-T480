@@ -276,7 +276,7 @@ If you want to upgrade macOS, download the desired macOS version in the Settings
 ## Post-install (optional)
 
 <details>  
-<summary><strong>💾 Install OpenCore to Hard drive</strong></summary>
+<summary><strong>💾 Install OpenCore to Hard drive (RECOMMENDED!)</strong></summary>
 </br>
 
 1. Press `ALT + SPACE` and open terminal. Type `sudo diskutil mountDisk disk0s1` (where disk0s1 corresponds to the EFI partition of the main disk)
@@ -331,6 +331,8 @@ To do this, follow these steps:
 
 ## Status
 
+Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/issues) for more deitaled Issues that im trying to solve! ;)
+
 <details>  
 <summary><strong>✅ What's working :3 </strong></summary>
 </br>
@@ -384,6 +386,7 @@ To do this, follow these steps:
 - [ ] WWAN
 - [ ] Dualbooting Linux (with OpenCore)
 - [ ] 4k60 output via HDMI 2.0 (in both USB-Cs and HDMI ports)
+- [ ] HotPlugging ThunderBolt (USB-C Hotplugging is working!)
 
 ### <strong>With Broadcom Wifi:</strong>
 - [ ] Apple Watch Unlock
@@ -393,10 +396,6 @@ To do this, follow these steps:
 
 &nbsp;
 
-## ⭐️ Feedback
-Did you find any bugs or just have some questions? Feel free to provide your feedback using the Discussions tab.
-
-&nbsp;
 
 ## 📜 License
 
