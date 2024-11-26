@@ -191,7 +191,6 @@ Please enable / disable the following patches depending on what is installed in 
 
 | SSDT              | Affected device            | Description                                                |
 | ----------------- | -------------------------- | ---------------------------------------------------------- |
-| SSDT-ARPT.aml     | Broadcom cards             | Disable Broadcom card during sleep                         |
 | SSDT-OFFGDGPU.aml | NVIDIA GeForce MX 150      | Disable NVIDIA GPU (necessary if installed)                |
 
 ### Install OpenCore
