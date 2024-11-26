@@ -1277,7 +1277,7 @@
 				<key>Comment</key>
 				<string>V2.3.6</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooPS2Mouse</string>
 				<key>MaxKernel</key>
@@ -1349,7 +1349,7 @@
 				<key>Comment</key>
 				<string>V3.0</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooSMBus</string>
 				<key>MaxKernel</key>
