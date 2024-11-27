@@ -331,7 +331,7 @@ To do this, follow these steps:
 
 ## Status
 
-Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/issues) for more deitaled Issues that im trying to solve! ;)
+Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/issues) for more deitaled Issues that im trying to solve! 
 
 <details>  
 <summary><strong>✅ What's working :3 </strong></summary>
@@ -383,6 +383,7 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 <summary><strong>🔄 Not tested (yet) :< </strong></summary>
 </br>
 
+If you tried some of these please let me know via the discussions tab!
 - [ ] WWAN
 - [ ] Dualbooting Linux (with OpenCore)
 - [ ] 4k60 output via HDMI 2.0 (in both USB-Cs and HDMI ports)
