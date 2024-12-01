@@ -16,14 +16,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable Broadcom card during sleep</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-ARPT.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Disable MX150</string>
 				<key>Enabled</key>
 				<false/>
@@ -134,6 +126,14 @@
 				<key>Path</key>
 				<string>SSDT-GPRW.aml</string>
 			</dict>
+			<dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-GPI0.aml</string>
+                </dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -1285,7 +1285,7 @@
 				<key>Comment</key>
 				<string>V2.3.6</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooPS2Mouse</string>
 				<key>MaxKernel</key>
@@ -1357,7 +1357,7 @@
 				<key>Comment</key>
 				<string>V3.0</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooSMBus</string>
 				<key>MaxKernel</key>
@@ -1782,23 +1782,59 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>USBMap.kext</string>
-				<key>Comment</key>
-				<string>V1.1 | USBMap.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>ThunderboltReset.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.0d1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/ThunderboltReset</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>IOElectrify.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IOElectrify</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>USBMap.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -2252,7 +2288,7 @@
 			<key>InstanceIdentifier</key>
 			<string></string>
 			<key>LauncherOption</key>
-			<string>Disabled</string>
+			<string>Full</string>
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
@@ -2922,6 +2958,18 @@
 				<key>Path</key>
 				<string>ResetNvramEntry.efi</string>
 			</dict>
+			<dict>
+                <key>Arguments</key>
+                <string></string>
+                <key>Comment</key>
+                <string></string>
+                <key>Enabled</key>
+                <true/>
+                <key>LoadEarly</key>
+                <false/>
+                <key>Path</key>
+                <string>TbtForcePower.efi</string>
+            </dict>
 		</array>
 		<key>Input</key>
 		<dict>
