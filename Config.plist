@@ -2288,9 +2288,9 @@
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
 			<key>HibernateMode</key>
-			<string>None</string>
+			<string>NVRAM</string>
 			<key>HibernateSkipsPicker</key>
-			<false/>
+			<true/>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>InstanceIdentifier</key>
@@ -2743,7 +2743,7 @@
 				<key>hbfx-ahbm</key>
 				<integer>129</integer>
 				<key>hbx-dump-nvram</key>
-				<true/>
+				<integer>1</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
