@@ -2738,6 +2738,13 @@
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
+			<key>E09B9297-7928-4440-9AAB-D1F8536FBF0A</key>
+			<dict>
+				<key>hbfx-ahbm</key>
+				<integer>129</integer>
+				<key>hbx-dump-nvram</key>
+				<true/>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict>
@@ -2754,6 +2761,11 @@
 				<string>csr-active-config</string>
 				<string>boot-args</string>
 				<string>ForceDisplayRotationInEFI</string>
+			</array>
+			<key>E09B9297-7928-4440-9AAB-D1F8536FBF0A</key>
+			<array>
+				<string>hbfx-ahbm</string>
+				<string>hbx-dump-nvram</string>
 			</array>
 		</dict>
 		<key>LegacyOverwrite</key>
