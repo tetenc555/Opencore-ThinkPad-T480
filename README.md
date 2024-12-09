@@ -326,7 +326,7 @@ To do this, follow these steps:
 
 </details>
 <details>
-<summary><strong>Configure your preffered sleep mode!^.^</strong></summary>
+<summary><strong>💤 Configure your preffered sleep mode! ^.^</strong></summary>
 </br>
 
 By simply running the command "sudo pmset -a hibernatemode X" you can choose when your laptop will hibernate instead of sleeping! This can be useful for energy saving or quicker coming back to your work. Just change the X to the mode you like the most! All are supported (25 and 0 are fully tested, im still testing 3 but it should hibernate fine after some hours. Sleeping in 3 is working as it should.)
@@ -341,7 +341,7 @@ By simply running the command "sudo pmset -a hibernatemode X" you can choose whe
 </details>
 
 <details>
-<summary><strong>Use bootcamp for booting on Windows!</strong></summary>
+<summary><strong>😼 Use bootcamp for booting on Windows!</strong></summary>
 </br>
 
 Although you can simply enable bootpicker and always boot from there (or use the esc key to go to the picker), you can have a clean method of switching systems, using BootCamp. macOS version works out of the box, but Windows version has to be installed. To do this, you need to inject your smbios in Windows by:
