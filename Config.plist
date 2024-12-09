@@ -127,13 +127,13 @@
 				<string>SSDT-GPRW.aml</string>
 			</dict>
 			<dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-GPI0.aml</string>
-                </dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPI0.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -809,7 +809,7 @@
 				<key>Comment</key>
 				<string>Haswell: SB_RCBA is a 0x4 page memory region, containing SPI_BASE at 0x3800 (SPI_BASE_ADDRESS)</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>Address</key>
@@ -817,7 +817,15 @@
 				<key>Comment</key>
 				<string>Generic: PCI root is a 0x1000 page memory region used by some types of firmware</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
+			</dict>
+			<dict>
+				<key>Address</key>
+				<integer>4161765376</integer>
+				<key>Comment</key>
+				<string>FixUp Hibernation</string>
+				<key>Enabled</key>
+				<true/>
 			</dict>
 		</array>
 		<key>Patch</key>
@@ -860,7 +868,7 @@
 			<key>DisableVariableWrite</key>
 			<false/>
 			<key>DiscardHibernateMap</key>
-			<true/>
+			<false/>
 			<key>EnableSafeModeSlide</key>
 			<true/>
 			<key>EnableWriteUnprotector</key>
@@ -882,7 +890,7 @@
 			<key>ProvideMaxSlide</key>
 			<integer>0</integer>
 			<key>RebuildAppleMemoryMap</key>
-			<true/>
+			<false/>
 			<key>ResizeAppleGpuBars</key>
 			<integer>-1</integer>
 			<key>SetupVirtualMap</key>
@@ -1098,23 +1106,23 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-                <key>Arch</key>
-                <string>Any</string>
-                <key>BundlePath</key>
-                <string>AMFIPass.kext</string>
-                <key>Comment</key>
-                <string>V1.4.1</string>
-                <key>Enabled</key>
-                <true/>
-                <key>ExecutablePath</key>
-                <string>Contents/MacOS/AMFIPass</string>
-                <key>MaxKernel</key>
-                <string></string>
-                <key>MinKernel</key>
-                <string></string>
-                <key>PlistPath</key>
-                <string>Contents/Info.plist</string>
-            </dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>AMFIPass.kext</string>
+				<key>Comment</key>
+				<string>V1.4.1</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AMFIPass</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 			<dict>
 				<key>Arch</key>
 				<string>Any</string>
@@ -1782,59 +1790,59 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>ThunderboltReset.kext</string>
-                    <key>Comment</key>
-                    <string>V1.0.0d1</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/ThunderboltReset</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>IOElectrify.kext</string>
-                    <key>Comment</key>
-                    <string>V1.0.0</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IOElectrify</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>USBMap.kext</string>
-                    <key>Comment</key>
-                    <string>V1.1</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string></string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>ThunderboltReset.kext</string>
+				<key>Comment</key>
+				<string>V1.0.0d1</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/ThunderboltReset</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>IOElectrify.kext</string>
+				<key>Comment</key>
+				<string>V1.0.0</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IOElectrify</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>USBMap.kext</string>
+				<key>Comment</key>
+				<string>V1.1</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -2221,13 +2229,13 @@
 			<key>AppleXcpmForceBoost</key>
 			<false/>
 			<key>CustomSMBIOSGuid</key>
-			<false/>
+			<true/>
 			<key>CustomPciSerialDevice</key>
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
 			<key>DisableIoMapperMapping</key>
-			<false/>
+			<true/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
@@ -2280,9 +2288,9 @@
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
 			<key>HibernateMode</key>
-			<string>None</string>
+			<string>NVRAM</string>
 			<key>HibernateSkipsPicker</key>
-			<false/>
+			<true/>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>InstanceIdentifier</key>
@@ -2713,7 +2721,7 @@
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
 				<key>rtc-blacklist</key>
-				<data></data>
+				<data>gKs=</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
@@ -2722,13 +2730,20 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-amfipassbeta revpatch=sbvmm unfairgva=4</string>
+				<string>-amfipassbeta revpatch=sbvmm unfairgva=4 rtcfx_exclude=80-AB</string>
 				<key>csr-active-config</key>
 				<data>AwgAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
+			</dict>
+			<key>E09B9297-7928-4440-9AAB-D1F8536FBF0A</key>
+			<dict>
+				<key>hbfx-ahbm</key>
+				<integer>129</integer>
+				<key>hbx-dump-nvram</key>
+				<integer>1</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -2746,6 +2761,11 @@
 				<string>csr-active-config</string>
 				<string>boot-args</string>
 				<string>ForceDisplayRotationInEFI</string>
+			</array>
+			<key>E09B9297-7928-4440-9AAB-D1F8536FBF0A</key>
+			<array>
+				<string>hbfx-ahbm</string>
+				<string>hbx-dump-nvram</string>
 			</array>
 		</dict>
 		<key>LegacyOverwrite</key>
@@ -2819,7 +2839,7 @@
 		<key>UpdateSMBIOS</key>
 		<true/>
 		<key>UpdateSMBIOSMode</key>
-		<string>Create</string>
+		<string>Custom</string>
 		<key>UseRawUuidEncoding</key>
 		<false/>
 	</dict>
@@ -2959,17 +2979,17 @@
 				<string>ResetNvramEntry.efi</string>
 			</dict>
 			<dict>
-                <key>Arguments</key>
-                <string></string>
-                <key>Comment</key>
-                <string></string>
-                <key>Enabled</key>
-                <true/>
-                <key>LoadEarly</key>
-                <false/>
-                <key>Path</key>
-                <string>TbtForcePower.efi</string>
-            </dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>TbtForcePower.efi</string>
+			</dict>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -3083,7 +3103,7 @@
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>ForceOcWriteFlash</key>
-			<false/>
+			<true/>
 			<key>ForgeUefiSupport</key>
 			<false/>
 			<key>IgnoreInvalidFlexRatio</key>
@@ -3123,9 +3143,9 @@
 				<key>Address</key>
 				<integer>569344</integer>
 				<key>Comment</key>
-				<string>Fix black screen on wake from hibernation for Lenovo Thinkpad T490</string>
+				<string>Fix black screen on wake from hibernation for Lenovo Thinkpad T480</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Size</key>
 				<integer>4096</integer>
 				<key>Type</key>

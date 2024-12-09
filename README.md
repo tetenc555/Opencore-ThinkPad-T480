@@ -325,6 +325,45 @@ To do this, follow these steps:
 
 
 </details>
+<details>
+<summary><strong>💤 Configure your preffered sleep mode! ^.^</strong></summary>
+</br>
+
+By simply running the command "sudo pmset -a hibernatemode X" you can choose when your laptop will hibernate instead of sleeping! This can be useful for energy saving or quicker coming back to your work. Just change the X to the mode you like the most! All are supported (25 and 0 are fully tested, im still testing 3 but it should hibernate fine after some hours. Sleeping in 3 is working as it should.)
+
+| Mode              | Details                    |
+| ----------------- | -------------------------- |
+| 0                 | Only sleep. Use this if you dont want hibernation.      | 
+| 3                 | Sleeps normally, but after some hours (3 hours if <50% battery, else 24 hours), it hibernates to save battery (Recommended because it will probably save u to go to wake your laptop only for it to be dead)|
+|25                 | Only hibernates. Better for maximum battery saving, as it completely shuts off the computer while youre not using it. It takes longer to wake up and to go to the hibernation state then from sleep. |
+
+
+</details>
+
+<details>
+<summary><strong>😼 Use bootcamp for booting on Windows!</strong></summary>
+</br>
+
+Although you can simply enable bootpicker and always boot from there (or use the esc key to go to the picker), you can have a clean method of switching systems, using BootCamp. macOS version works out of the box, but Windows version has to be installed. To do this, you need to inject your smbios in Windows by:
+
+- Disable CustomSMBIOSGuid in Kernel -> Quirks
+- Change from Custom to Create in PlatformInfo -> UpdateSMBIOS
+
+and then simple use [this tool](https://github.com/timsutton/brigadier) in Windows to download Boot Camp. After that, just install the setup file and the BootCamp icon should pop up on your taskbar, makig it possible to change the default setting of opencore without using the picker!
+
+
+I recommend doing this procedure in this order, to mitigate any drivers problem and have Broadcom Wi-Fi and Bluetooth drivers also installed in the easiest way possible:
+1. Activate Boot Picker on Misc -> Show Picker
+2. Partitionate your SSD
+3. Install Windows and drivers (Broadcom prob will not be installed and it should be the only one missing)
+4. Restart to macOS and enable SMBIOS injection
+5. Boot on Windows and download and install BootCamp via brigadier (Broadcom Drivers should now be installed)
+6. Restart to macOS and disable SMBIOS injection
+
+You can now also disable bootpicker! Remembering that even disabled, you can get into it by holding esc while powering on the laptop, so thats why this is my favorite setup.
+
+
+</details>
 
 &nbsp;
 
@@ -346,6 +385,7 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 - [X] Graphics Acceleration
 - [X] Trackpoint / Touchpad
 - [X] Power management / Sleep
+- [X] Hibernation
 - [X] FaceTime / iMessage (iServices)
 - [X] HDMI
 - [X] Automatic OS updates
