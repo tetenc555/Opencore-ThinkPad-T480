@@ -1021,7 +1021,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
-				<data>VgAAAA==</data>
+				<data>YAAAAA==</data>
 				<key>model</key>
 				<string>Sunrise Point-LP HD Audio</string>
 			</dict>
@@ -2776,7 +2776,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-amfipassbeta revpatch=sbvmm unfairgva=4 rtcfx_exclude=80-AB</string>
+				<string>-amfipassbeta revpatch=sbvmm unfairgva=4 rtcfx_exclude=80-AB hdaverbs=1</string>
 				<key>csr-active-config</key>
 				<data>AwgAAA==</data>
 				<key>prev-lang:kbd</key>
