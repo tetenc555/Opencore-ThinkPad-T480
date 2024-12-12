@@ -3,27 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>23H124</string>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>23G93</string>
 	<key>CFBundleExecutable</key>
-	<string>VoodooInput</string>
+	<string>BrcmFirmwareData</string>
 	<key>CFBundleIdentifier</key>
-	<string>me.kishorprins.VoodooInput</string>
+	<string>as.acidanthera.BrcmFirmwareStore</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>VoodooInput</string>
+	<string>BrcmFirmwareData</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.6</string>
+	<string>2.6.9</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.1.6</string>
+	<string>2.6.9</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -42,39 +42,30 @@
 	<string>14E300c</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>Voodoo Input</key>
+		<key>BrcmFirmwareStore</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>me.kishorprins.VoodooInput</string>
+			<string>as.acidanthera.BrcmFirmwareStore</string>
 			<key>IOClass</key>
-			<string>VoodooInput</string>
-			<key>IOProbeScore</key>
-			<integer>200</integer>
-			<key>IOPropertyMatch</key>
-			<dict>
-				<key>VoodooInputSupported</key>
-				<true/>
-			</dict>
+			<string>BrcmFirmwareStore</string>
+			<key>IOMatchCategory</key>
+			<string>BrcmFirmwareStore</string>
 			<key>IOProviderClass</key>
-			<string>IOService</string>
+			<string>IOResources</string>
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.10</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2019 Kishor Prins. All rights reserved.</string>
+	<string>10.8</string>
+	<key>OSBundleCompatibleVersion</key>
+	<string>2.6.9</string>
 	<key>OSBundleLibraries</key>
 	<dict>
-		<key>com.apple.iokit.IOHIDFamily</key>
-		<string>2.0</string>
 		<key>com.apple.kpi.iokit</key>
-		<string>14</string>
+		<string>9.0</string>
 		<key>com.apple.kpi.libkern</key>
-		<string>14</string>
+		<string>9.0</string>
 		<key>com.apple.kpi.mach</key>
-		<string>13.0</string>
+		<string>9.0</string>
 	</dict>
-	<key>OSBundleRequired</key>
-	<string>Root</string>
 </dict>
 </plist>
