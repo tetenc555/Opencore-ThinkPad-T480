@@ -220,6 +220,9 @@ In Startup menu, set the following options:
 -  `UEFI/Legacy Boot`: **UEFI Only**
 -  `CSM Support`: **No**
 
+In USB menu, set the following options:
+- `Always On USB`: **Disabled** - this is important! Enabling this breaks thunderbolt.
+
 In Thunderbolt menu, set the following options:
 
 -  `Thunderbolt BIOS Assist Mode`: **Disabled**
@@ -240,7 +243,7 @@ Now you can go through the install.
 5. Once you see the `Region selection` screen, you are good to proceed.
 6. Create your user account and everything else.
 
-### Fixing Broadcom Wi-Fi
+### Fixing Broadcom Wi-Fi (Required for Sonoma and Later! Older versions should work OOTB)
 Everything is already configured on the EFI so we just need to run OCLP patch
 1. Use an wired connection via Ethernet, Bluetooth or iPhone USB to download OCLP via their website
 2. Run the Post-Installation Root Patch and reboot! 
@@ -383,6 +386,7 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 - [X] Audio (Audio Jack & Speaker)
 - [X] USB Ports & Built-in Camera
 - [X] Graphics Acceleration
+- [X] 4k60 output via HDMI 2.0 (in HDMI Port)
 - [X] Trackpoint / Touchpad
 - [X] Power management / Sleep
 - [X] Hibernation
@@ -390,7 +394,7 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 - [X] HDMI
 - [X] Automatic OS updates
 - [X] Handoff / Universal Clipboard
-- [X] Sidecar (Cable) / AirPlay to Mac
+- [X] Sidecar (Cable) (connecting works! Sidecar is currently broken.) / AirPlay to Mac
 - [X] SIP / FireVault 2 (Using 03080000 configuration for Native Wi-Fi in Sequoia)
 - [X] USB-C 3.1 with DisplayPort
 - [X] Thunderbolt 3
@@ -398,7 +402,7 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 
 ### <strong>With Broadcom Wifi:</strong>
 - [X] AirDrop & Continuity (with Intel Wifi)
-- [X] Sidecar Wireless
+- [X] Sidecar Wireless (connecting works! Sidecar is currently broken.)
 
 </details>
 
@@ -406,6 +410,7 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 <summary><strong>⚠️ What's not working =.= </strong></summary>
 </br>
 
+- [ ] Sidecar - Currently broken, check issue #7 for more info
 - [ ] Safari DRM ```Use Chromium powered Browser or Firefox to watch Amazon Prime Video, Netflix, Disney+ and others```
 - [ ] Fingerprint Reader (Disabled with NoTouchID kext)
 - [ ] Facial Recognition (Camera works fine on macOS)
@@ -425,7 +430,7 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 If you tried some of these please let me know via the discussions tab!
 - [ ] WWAN
 - [ ] Dualbooting Linux (with OpenCore)
-- [ ] 4k60 output via HDMI 2.0 (in both USB-Cs and HDMI ports)
+- [ ] 4k60 output via HDMI 2.0 (in both USB-Cs)
 - [ ] HotPlugging ThunderBolt (USB-C Hotplugging is working!)
 
 ### <strong>With Broadcom Wifi:</strong>
