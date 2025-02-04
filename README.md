@@ -72,9 +72,11 @@ Check the model of your WiFi & Bluetooth card. Intel cards should be compatible 
 </br>
 
 ![LAPTOP](https://raw.githubusercontent.com/tetenc555/Opencore-ThinkPad-T480/refs/heads/main/assets/IMG_1624.HEIC)
+![SETUP](https://github.com/tetenc555/Opencore-ThinkPad-T480/blob/main/assets/SETUP.JPG?raw=true)
 ![4K_60_HDMI](https://raw.githubusercontent.com/tetenc555/Opencore-ThinkPad-T480/refs/heads/main/assets/IMG_1619.HEIC)
 ![UNIVERSALCONTROL](https://raw.githubusercontent.com/tetenc555/Opencore-ThinkPad-T480/refs/heads/main/assets/IMG_1621.HEIC)
 ![BOOTCAMP](https://raw.githubusercontent.com/tetenc555/Opencore-ThinkPad-T480/refs/heads/main/assets/IMG_1622.HEIC)
+![AIRDROP](https://github.com/tetenc555/Opencore-ThinkPad-T480/blob/main/assets/AIRDROP.PNG?raw=true)
 
 
 </details>  
