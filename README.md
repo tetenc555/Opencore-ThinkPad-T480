@@ -187,13 +187,6 @@ Delete the generic ```112233445566``` value, and enter your MAC address into the
 #### Default keyboard layout and language
 The default keyboard layout and language is ```German```. To change the language, edit the value of ```NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> prev-lang:kbd``` to the value of your language. If your value contains an underscore "```_```", replace it with a hyphen "```-```". The value for English would be ```en-US:0```. You can find a list of all language values [here](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/AppleKeyboardLayouts/AppleKeyboardLayouts.txt).
 
-##### ACPI patches
-Please enable / disable the following patches depending on what is installed in your device.
-
-| SSDT              | Affected device            | Description                                                |
-| ----------------- | -------------------------- | ---------------------------------------------------------- |
-| SSDT-OFFGDGPU.aml | NVIDIA GeForce MX 150      | Disable NVIDIA GPU (necessary if installed)                |
-
 ### Install OpenCore
 After you've finished with the neccesary tweaks, you have to copy the EFI folder to the EFI partition of your pendrive.
 
@@ -397,7 +390,7 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 - [X] Handoff / Universal Clipboard
 - [X] Sidecar (Cable) (connecting works! Sidecar is currently broken.) / AirPlay to Mac
 - [X] SIP / FireVault 2 (Using 03080000 configuration for Native Wi-Fi in Sequoia)
-- [X] USB-C 3.1 with DisplayPort
+- [X] USB-C 3.1 with DisplayPort (4k60 not working via USB-C) (Check issue #9)
 - [X] Thunderbolt 3
 - [X] Dualbooting Windows (with OpenCore and BootCamp)
 
@@ -412,6 +405,9 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 </br>
 
 - [ ] Sidecar - Currently broken, check issue #7 for more info
+- [ ] 4k60 output via HDMI 2.0 (in both USB-Cs) (Check issue #9)
+
+### <strong>Non-Fixable</strong>
 - [ ] Safari DRM ```Use Chromium powered Browser or Firefox to watch Amazon Prime Video, Netflix, Disney+ and others```
 - [ ] Fingerprint Reader (Disabled with NoTouchID kext)
 - [ ] Facial Recognition (Camera works fine on macOS)
@@ -431,7 +427,6 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 If you tried some of these please let me know via the discussions tab!
 - [ ] WWAN
 - [ ] Dualbooting Linux (with OpenCore)
-- [ ] 4k60 output via HDMI 2.0 (in both USB-Cs)
 - [ ] HotPlugging ThunderBolt (USB-C Hotplugging is working!)
 
 ### <strong>With Broadcom Wifi:</strong>
