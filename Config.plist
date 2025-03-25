@@ -1033,8 +1033,6 @@
 				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>AADAhw==</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
 				<key>backlight-smoother-interval</key>
 				<data>BwAAAA==</data>
 				<key>backlight-smoother-steps</key>
