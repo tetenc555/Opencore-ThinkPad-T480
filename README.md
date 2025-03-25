@@ -112,7 +112,7 @@ You must have the following items:
 </details>
 
 <details>  
-<summary><strong>⚙️ Preperation</strong></summary>
+<summary><strong>⚙️ Preparation</strong></summary>
 </br>
 
 ### Create the install media
