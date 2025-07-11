@@ -1,4 +1,4 @@
-# Lenovo ThinkPad T480 OpenCore Configuation
+<!-- # Lenovo ThinkPad T480 OpenCore Configuation -->
 
 ![repository-open-graph-template-l24](https://github.com/user-attachments/assets/93d4fbc8-b233-4182-86d0-cc45ec1d32ae)
 
