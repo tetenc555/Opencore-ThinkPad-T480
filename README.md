@@ -388,7 +388,7 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 - [X] HDMI
 - [X] Automatic OS updates
 - [X] Handoff / Universal Clipboard
-- [X] Sidecar (Cable) (connecting works! Sidecar is currently broken.) / AirPlay to Mac
+- [X] Sidecar (Cable) / AirPlay to Mac
 - [X] SIP / FireVault 2 (Using 03080000 configuration for Native Wi-Fi in Sequoia)
 - [X] USB-C 3.1 with DisplayPort (4k60 not working via USB-C) (Check issue #9)
 - [X] Thunderbolt 3
@@ -396,7 +396,7 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 
 ### <strong>With Broadcom Wifi:</strong>
 - [X] AirDrop & Continuity (with Intel Wifi)
-- [X] Sidecar Wireless (connecting works! Sidecar is currently broken.)
+- [X] Sidecar Wireless (connecting works! Sidecar Wireless is currently broken.)
 
 </details>
 
@@ -404,7 +404,6 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 <summary><strong>⚠️ What's not working =.= </strong></summary>
 </br>
 
-- [ ] Sidecar - Currently broken, check issue #7 for more info
 - [ ] 4k60 output via HDMI 2.0 (in both USB-Cs) (Check issue #9)
 
 ### <strong>Non-Fixable</strong>
@@ -412,7 +411,7 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 - [ ] Fingerprint Reader (Disabled with NoTouchID kext)
 - [ ] Facial Recognition (Camera works fine on macOS)
 
-### <strong>With Intel Wifi:</strong>
+### <strong>Without Intel Wifi:</strong>
 - [ ] AirDrop & Continuity (with Intel Wifi)
 - [ ] Sidecar Wireless
 - [ ] Apple Watch Unlock
