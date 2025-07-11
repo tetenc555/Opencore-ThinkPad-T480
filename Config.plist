@@ -2779,7 +2779,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-amfipassbeta -no-compat-check unfairgva=4 revpatch=sbvmm rtcfx_exclude=80-AB hdaverbs=1</string>
+                    <string>-amfipassbeta -no-compat-check revpatch=sbvmm rtcfx_exclude=80-AB hdaverbs=1</string>
                     <key>csr-active-config</key>
                     <data>AwgAAA==</data>
                     <key>prev-lang:kbd</key>
