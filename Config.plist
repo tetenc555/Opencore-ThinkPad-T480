@@ -855,7 +855,7 @@
                     <key>Comment</key>
                     <string>Haswell: SB_RCBA is a 0x4 page memory region, containing SPI_BASE at 0x3800 (SPI_BASE_ADDRESS)</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                 </dict>
                 <dict>
                     <key>Address</key>
@@ -895,6 +895,30 @@
                     <data></data>
                     <key>Replace</key>
                     <data>aGFjT1M=</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>Comment</key>
+                    <string>Skip Board ID check</string>
+                    <key>Count</key>
+                    <integer>0</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data>AFAAbABhAHQAZgBvAHIAbQBTAHUAcABwAG8AcgB0AC4AcABsAGkAcwB0</data>
+                    <key>Identifier</key>
+                    <string>Apple</string>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>Replace</key>
+                    <data>AC4ALgAuAC4ALgAuAC4ALgAuAC4ALgAuAC4ALgAuAC4ALgAuAC4ALgAu</data>
                     <key>ReplaceMask</key>
                     <data></data>
                     <key>Skip</key>
@@ -2357,7 +2381,7 @@
                 <key>PickerVariant</key>
                 <string>Acidanthera\GoldenGate</string>
                 <key>PollAppleHotKeys</key>
-                <false/>
+                <true/>
                 <key>ShowPicker</key>
                 <false/>
                 <key>TakeoffDelay</key>
@@ -2779,7 +2803,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-amfipassbeta -no-compat-check revpatch=sbvmm rtcfx_exclude=80-AB hdaverbs=1</string>
+                    <string>-v -no_compat_check -amfipassbeta revpatch=sbvmm rtcfx_exclude=80-AB hdaverbs=1</string>
                     <key>csr-active-config</key>
                     <data>AwgAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -2863,13 +2887,13 @@
                 <key>AdviseFeatures</key>
                 <true/>
                 <key>MLB</key>
-                <string>00000000000000000</string>
+                <string>C02842102CDJH4RJA</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>AAAAAAAA</data>
+                <data>qFt4Mv6e</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -2877,9 +2901,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro15,2</string>
                 <key>SystemSerialNumber</key>
-                <string>000000000000</string>
+                <string>C02XKKZVJHCC</string>
                 <key>SystemUUID</key>
-			    <string>00000000-0000-0000-0000-000000000000</string>
+                <string>6903F588-4972-474F-8F38-9469B0808F4A</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
