@@ -361,6 +361,18 @@ You can now also disable bootpicker! Remembering that even disabled, you can get
 
 
 </details>
+<details>
+<summary><strong>🎵🎶 Get Apple Music Lossless Audio on your Hack!</strong></summary>
+</br>
+
+If you sign up for Apple Music, you probably really like the quality of audio that it has to offer! But, as hackintosh have problems with DRM, these usually wont work natively :((
+
+Thats why you can add "unfairvga=7" and it should work! But you must be aware: This breaks VDA Encoder support, which mainly affects Sidecar users (it breaks Sidecar completely, causing it only to show a black screen).
+
+Thanks @ohvinx to help me with this! You can also check more info about the issue with Sidecar and unfairvga on #
+
+
+</details>
 
 &nbsp;
 
@@ -393,6 +405,8 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 - [X] USB-C 3.1 with DisplayPort (4k60 not working via USB-C) (Check issue #9)
 - [X] Thunderbolt 3
 - [X] Dualbooting Windows (with OpenCore and BootCamp)
+- [X] Dualbooting Linux (with OpenCore)
+- [X] Apple Music Lossless Audio (check the Post Install Tab to have this!)
 
 ### <strong>With Broadcom Wifi:</strong>
 - [X] AirDrop & Continuity (with Intel Wifi)
@@ -425,7 +439,6 @@ Remember to check [here](https://github.com/tetenc555/Opencore-ThinkPad-T480/iss
 
 If you tried some of these please let me know via the discussions tab!
 - [ ] WWAN
-- [ ] Dualbooting Linux (with OpenCore)
 - [ ] HotPlugging ThunderBolt (USB-C Hotplugging is working!)
 
 ### <strong>With Broadcom Wifi:</strong>
