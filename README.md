@@ -367,7 +367,7 @@ You can now also disable bootpicker! Remembering that even disabled, you can get
 
 If you sign up for Apple Music, you probably really like the quality of audio that it has to offer! But, as hackintosh have problems with DRM, these usually wont work natively :((
 
-Thats why you can add "unfairvga=7" and it should work! But you must be aware: This breaks VDA Encoder support, which mainly affects Sidecar users (it breaks Sidecar completely, causing it only to show a black screen).
+Thats why you can add "unfairvga=7" boot-arg and it should work! But you must be aware: This breaks VDA Encoder support, which mainly affects Sidecar users (it breaks Sidecar completely, causing it only to show a black screen).
 
 Thanks @ohvinx to help me with this! You can also check more info about the issue with Sidecar and unfairvga on #
 
