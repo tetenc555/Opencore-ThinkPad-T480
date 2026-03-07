@@ -23,6 +23,10 @@
 </p>
 </br>
 
+## ⚠️ Tahoe Disclaimer
+Tahoe is now officially supported! Sadly, as VodooI2CHID wasnt updated yet, i had to disable it. This makes touchscreen capable panels lose thetouch functionality, so if youre running an older system (like Sequoia), remember to enable it if you want your touchscreen to work! Enabling it on tahoe breaks power off/restart/wake features.
+
+
 ## ⚠️ Disclaimer
 This guide is only for the Lenovo ThinkPad T480. I am NOT responsible for any harm you cause to your device. This guide is provided "as-is" and all steps taken are done at your own risk.
 
